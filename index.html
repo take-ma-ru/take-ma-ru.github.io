@@ -1,13 +1,157 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Take-ma-ru</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <h1 class="title">HTML & CSS の開発環境を用意しよう！</h1>
-    <p>自分のPCでWebページを開発する方法を学習しましょう</p>
-    <h2 class="title2">学習方法はこちら</h2>
-
-  </body>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My_Home</title>
+</head>
+<body>
+    <header id="header" class="wrapper">
+        <div class="site-title"><h1>My Home</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#exterior">Exterior</a></li>
+                <li><a href="#interior">Interior</a></li>
+                <li><a href="#room">Room</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-viual">
+            <img src="img/main-visual.JPG" alt="基礎の写真">
+        </div>
+        <section id="about" class="wrapper">
+            <h2 class="section-title">About</h2>
+            <div class="content">
+                <img src="img/icon.png" alt="自分の写真">
+                <div class="text">
+                    <h3 class="content-title">Takemaru Takemaru</h3>
+                    <p>
+                      田舎のベッドタウン<br>
+                      防音設備を備えた部屋があります<br>
+                      スポーツと音楽が趣味です<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="exterior" class="wrapper">
+            <h2 class="section-title">Exterior</h2>
+            <ul>
+                <li>
+                    <img class="photo" src="img/soto/img-gaikann.png" alt="外観">
+                    <h3 class="content-title">道路から</h3>
+                    <p>道路側からみた我が家です！メインビジュアルの基礎と同じ方向から撮影しています。</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/soto/img-omote-hidari.png" alt="表">
+                    <h3 class="content-title">玄関左側</h3>
+                    <p>玄関から左側は赤中心の壁色になっています☆</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/soto/img-omote-migi.png" alt="表">
+                    <h3 class="content-title">玄関右側</h3>
+                    <p>玄関から右側は白中心の壁色。ここの一階はリビングです♪</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/soto/img-ura.png" alt="裏">
+                    <h3 class="content-title">玄関の反対側</h3>
+                    <p>玄関の反対側！ちょっと出っ張ったキッチン部分に赤い壁を採用。</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/soto/img-dekki.png" alt="ウッドデッキ">
+                    <h3 class="content-title">ウッドデッキ</h3>
+                    <p>リビングからは広いウッドデッキに出ることができます。おしゃれなダークブラウン。</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/soto/img-gennkann.png" alt="玄関">
+                    <h3 class="content-title">玄関</h3>
+                    <p>悩みに悩んだ玄関扉。シンプルに。今や家の鍵もキーレス！</p>
+                </li>
+            </ul>
+        </section>
+        <section id="interior" class="wrapper">
+            <h2 class="section-title">Interior</h2>
+            <ul>
+                <li>
+                    <img class="photo" src="img/setsubi/img-nichi.png" alt="ニッチ">
+                    <h3 class="content-title">ニッチ</h3>
+                    <p>玄関フロアのこだわりは、入ってすぐ目に入る二色のニッチ☆</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/setsubi/img-kitchen.png" alt="台所">
+                    <h3 class="content-title">キッチン</h3>
+                    <p>淡い色のシステムキッチン。収納は充分。</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/setsubi/img-kitchen-ura.png" alt="台所裏">
+                    <h3 class="content-title">キッチン逆側</h3>
+                    <p>料理中に振り返ると炊飯器や電子レンジのあるキッチンと同じカラーの棚が。</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/setsubi/img-datuisitu.png" alt="脱衣室１">
+                    <h3 class="content-title">脱衣室洗面台</h3>
+                    <p>脱衣室の洗面台、洗面台周りにも収納がたくさん！</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/setsubi/img-datuisitu-ura.png" alt="脱衣室２">
+                    <h3 class="content-title">脱衣室逆側</h3>
+                    <p>洗面台の反対側には、さらに収納と着替えを置けるスペースが！</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/setsubi/img-furo.png" alt="浴室">
+                    <h3 class="content-title">浴室</h3>
+                    <p>浴室も広々。ポイントは踏み込むと少し弾力を感じる「ホッからり床」</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/setsubi/img-toire.png" alt="トイレ">
+                    <h3 class="content-title">トイレ</h3>
+                    <p>オート開閉の便座カバー、流すボタンも数種類。奥の壁は癒されるグリーンに。</p>
+                </li>
+                <li>
+                    <img class="photo" src="img/setsubi/img-kaidann.png" alt="階段">
+                    <h3 class="content-title">階段</h3>
+                    <p>一階からの見た目にこだわった階段。床面を同じ色にしたところが良い♪</p>
+                </li>
+                <li></li>
+            </ul>
+        </section>
+     <section id="room" class="wrapper">
+         <h2 class="section-title">Room</h2>
+         <ul>
+            <li>
+                <img class="photo" src="img/heya/img-akibeya.png" alt="空き部屋">
+                <h3 class="content-title">空き部屋</h3>
+                <p>６帖の空き部屋は、荷物置き場、洗濯物干し場と化していますが、左壁はグリーンです。</p>
+            </li>
+            <li>
+                <img class="photo" src="img/heya/img-kasibeya.png" alt="貸し部屋">
+                <h3 class="content-title">貸し部屋</h3>
+                <p>７．５帖の貸し部屋は、天井と壁の一面、ロールスクリーンが黄色で統一！</p>
+            </li>
+            <li>
+                <img class="photo" src="img/heya/img-drum.JPG" alt="ドラム">
+                <h3 class="content-title">趣味室のドラム</h3>
+                <p>防音設備を施した趣味室に置いている、限定デザインのドラムです！</p>
+            </li>
+            <li>
+                <img class="photo" src="img/heya/img-jisitu-kabe.png" alt="自室">
+                <h3 class="content-title">自分の部屋</h3>
+                <p>自分の部屋はシンプルです。唯一こだわったのは壁の一面がコンクリ打ちっぱなし模様なとこ♪</p>
+            </li>
+            <li>
+                <img class="photo" src="img/heya/img-jisitu-kuro.png" alt="クローゼット">
+                <h3 class="content-title">ウォークインクローゼット</h3>
+                <p>部屋のウォークインクローゼットは、３帖あり容量充分！</p>
+            </li>
+            <li></li>
+         </ul>
+     </section>        
+    </main>
+    <footer>
+        <p>&copy;2021 Takemaru</p>
+    </footer>
+</body>
+</html>
